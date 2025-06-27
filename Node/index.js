@@ -53,4 +53,6 @@ app.listen(PORT, () => { //PORT
 });
 
 
-
+app.get("/", (req, res) => {
+  res.send("Backend is working 🚀");
+});

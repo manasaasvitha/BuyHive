@@ -1,5 +1,7 @@
-const express = require("express");
+require('dotenv').config(); // optional if you're running locally with .env
 const mongoose = require('mongoose');
+
+const express = require("express");
 const cors = require("cors");
 const connectDB = require("./config/db"); 
 const authRoutes = require("./route/auth");

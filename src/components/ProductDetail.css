@@ -1,0 +1,21 @@
+.product-detail {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.product-detail img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #f0ad4e;
+  border: none;
+  cursor: pointer;
+}
